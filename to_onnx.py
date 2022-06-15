@@ -2,10 +2,8 @@ import torch
 import torch.nn as nn
 
 def to_onnx():
-    # model_file_path = "./mobilenetv3_small.pkl"
-    # onnx_file_path = "./mobilenetv3_small.onnx"
-    model_file_path = "./mobilenetv1.pkl"
-    onnx_file_path = "../onnx/mobilenetv1.onnx"
+    model_file_path = "./mobilenetv3_small.pkl"
+    onnx_file_path = "./mobilenetv3_small.onnx"
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -13,7 +11,7 @@ def to_onnx():
     model = model.to(device)
     # print(model)
 
-    input_img = torch.randn(1, 1, 112, 112, device = device)
+    input_img = torch.randn(1, 1, 224, 224, device = device)
 
     input_names = ["input_data"]
     output_names = ["output_data"]
