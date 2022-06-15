@@ -13,7 +13,6 @@ from to_onnx import to_onnx
 import csv
 import cv2
 import mobilenetv3_b
-import mobilenetv1
 
 torch.set_printoptions(threshold=np.inf)  #显示所有参数内容
 
@@ -25,8 +24,7 @@ if __name__ == '__main__':
     learnchange = [40*2,65*2,90*2]
     learnchangerate = 0.1
     
-    # net = mobilenetv3_b.mobilenetv3_small()
-    net = mobilenetv1.MobileNet()
+    net = mobilenetv3_b.mobilenetv3_small()
     net = net.to(device)
     
     optimizer = optim.Adam(net.parameters(), lr=learnrate)
@@ -34,14 +32,9 @@ if __name__ == '__main__':
     
     loss_cal = nn.MSELoss()
     
-    input_data = torch.randn(1, 1, 112, 112, device=device)
-    # gt_data = torch.rand(1, 288, 4, 4, device=device)
-    gt_data = torch.rand(1, 1024, 4, 4, device=device)
-    
-    raw_data = np.random.randn(1, 112, 112)
-    input_data_raw = np.array(raw_data)
-    input_data_raw = input_data_raw.astype('float32')
-    input_data_raw.tofile("./112_test.raw")
+    input_data = torch.randn(1, 1, 224, 224, device=device)
+    gt_data = torch.rand(1, 288, 4, 4, device=device)
+  
     
     for epoch in range(num_epochs):
         net.train()
@@ -54,8 +47,8 @@ if __name__ == '__main__':
         total_loss.backward()
         optimizer.step()
         
-    # model_file_name = "./mobilenetv3_small.pkl"
-    model_file_name = "./mobilenetv1.pkl"
+    model_file_name = "./mobilenetv3_small.pkl"
+
     torch.save(net, model_file_name)
     
     to_onnx()
