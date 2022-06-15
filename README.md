@@ -15,3 +15,6 @@ Step 3: Quantize the float dlc to quan dlc with hta
 "
   snpe-dlc-quantize --input_dlc ./mobilenetv3_float.dlc --input_list ./raw_list.txt --output_dlc ./mobilenetv3_small_quan_hta.dlc --enable_hta
 "
+
+
+Now, I can see the problems "unknown op"  "ElementwiseBinaryOp not supported"  "Permute not supported" !!  My whole result from Step3 is in hta_result.txt.
