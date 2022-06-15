@@ -1,0 +1,632 @@
+[INFO] InitializeStderr: DebugLog initialized.
+[INFO] Writing intermediate model
+[INFO] Setting activation for layer: input_data and buffer: input_data
+[INFO] bw: 8, min: -3.528029, max: 3.555809, delta: 0.027780, offset: -127.000000
+[INFO] Setting activation for layer: Conv_0 and buffer: 644
+[INFO] bw: 8, min: -1.642018, max: 1.436766, delta: 0.012074, offset: -136.000000
+[INFO] Setting activation for layer: Add_2_Hswish and buffer: 248
+[INFO] bw: 8, min: -0.377429, max: 1.059055, delta: 0.005633, offset: -67.000000
+[INFO] Setting activation for layer: Conv_7 and buffer: 647
+[INFO] bw: 8, min: -0.316403, max: 0.299496, delta: 0.002415, offset: -131.000000
+[INFO] Setting activation for layer: Relu_8 and buffer: 251
+[INFO] bw: 8, min: 0.000000, max: 0.299121, delta: 0.001173, offset: 0.000000
+[INFO] Setting activation for layer: GlobalAveragePool_9 and buffer: 254
+[INFO] bw: 8, min: 0.000000, max: 0.044481, delta: 0.000174, offset: 0.000000
+[INFO] Setting activation for layer: 254.ncs and buffer: 254.ncs
+[INFO] bw: 8, min: 0.000000, max: 0.044481, delta: 0.000174, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_11 and buffer: 259
+[INFO] bw: 8, min: -0.001333, max: 0.008667, delta: 0.000039, offset: -34.000000
+[INFO] Setting activation for layer: Relu_12 and buffer: 260
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_13 and buffer: 263
+[INFO] bw: 8, min: 0.000000, max: 3.001051, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_16 and buffer: 264
+[INFO] bw: 8, min: 0.000000, max: 3.001051, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 265 and buffer: 265
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_18 and buffer: 266
+[INFO] bw: 8, min: 0.000000, max: 0.500175, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_19 and buffer: 274
+[INFO] bw: 8, min: 0.000000, max: 0.500175, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: 274.nsc and buffer: 274.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500175, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: Mul_20 and buffer: 275
+[INFO] bw: 8, min: 0.000000, max: 0.149610, delta: 0.000587, offset: 0.000000
+[INFO] Setting activation for layer: Conv_21 and buffer: 650
+[INFO] bw: 8, min: -0.148505, max: 0.192655, delta: 0.001338, offset: -111.000000
+[INFO] Setting activation for layer: Conv_22 and buffer: 653
+[INFO] bw: 8, min: -0.125036, max: 0.118355, delta: 0.000954, offset: -131.000000
+[INFO] Setting activation for layer: Relu_23 and buffer: 280
+[INFO] bw: 8, min: 0.000000, max: 0.118496, delta: 0.000465, offset: 0.000000
+[INFO] Setting activation for layer: Conv_24 and buffer: 656
+[INFO] bw: 8, min: -0.021421, max: 0.021254, delta: 0.000167, offset: -128.000000
+[INFO] Setting activation for layer: Relu_25 and buffer: 283
+[INFO] bw: 8, min: 0.000000, max: 0.021258, delta: 0.000083, offset: 0.000000
+[INFO] Setting activation for layer: Conv_26 and buffer: 659
+[INFO] bw: 8, min: -0.102445, max: 0.212296, delta: 0.001234, offset: -83.000000
+[INFO] Setting activation for layer: Conv_27 and buffer: 662
+[INFO] bw: 8, min: -0.158427, max: 0.172711, delta: 0.001299, offset: -122.000000
+[INFO] Setting activation for layer: Relu_28 and buffer: 288
+[INFO] bw: 8, min: 0.000000, max: 0.172721, delta: 0.000677, offset: 0.000000
+[INFO] Setting activation for layer: Conv_29 and buffer: 665
+[INFO] bw: 8, min: -0.023993, max: 0.034275, delta: 0.000229, offset: -105.000000
+[INFO] Setting activation for layer: Relu_30 and buffer: 291
+[INFO] bw: 8, min: 0.000000, max: 0.034233, delta: 0.000134, offset: 0.000000
+[INFO] Setting activation for layer: Conv_31 and buffer: 668
+[INFO] bw: 8, min: -0.252256, max: 0.170937, delta: 0.001660, offset: -152.000000
+[INFO] Setting activation for layer: Add_32 and buffer: 294
+[INFO] bw: 8, min: -0.344464, max: 0.278503, delta: 0.002443, offset: -141.000000
+[INFO] Setting activation for layer: Conv_33 and buffer: 671
+[INFO] bw: 8, min: -0.229226, max: 0.194344, delta: 0.001661, offset: -138.000000
+[INFO] Setting activation for layer: Add_35_Hswish and buffer: 302
+[INFO] bw: 8, min: -0.105875, max: 0.103413, delta: 0.000821, offset: -129.000000
+[INFO] Setting activation for layer: Conv_40 and buffer: 674
+[INFO] bw: 8, min: -0.015259, max: 0.041134, delta: 0.000221, offset: -69.000000
+[INFO] Setting activation for layer: GlobalAveragePool_41 and buffer: 307
+[INFO] bw: 8, min: -0.010299, max: 0.032061, delta: 0.000166, offset: -62.000000
+[INFO] Setting activation for layer: 307.ncs and buffer: 307.ncs
+[INFO] bw: 8, min: -0.010299, max: 0.032061, delta: 0.000166, offset: -62.000000
+[INFO] Setting activation for layer: Gemm_43 and buffer: 312
+[INFO] bw: 8, min: -0.001686, max: 0.008314, delta: 0.000039, offset: -43.000000
+[INFO] Setting activation for layer: Relu_44 and buffer: 313
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_45 and buffer: 316
+[INFO] bw: 8, min: 0.000000, max: 3.001075, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_48 and buffer: 317
+[INFO] bw: 8, min: 0.000000, max: 3.001075, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 318 and buffer: 318
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_50 and buffer: 319
+[INFO] bw: 8, min: 0.000000, max: 0.500179, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_51 and buffer: 327
+[INFO] bw: 8, min: 0.000000, max: 0.500179, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: 327.nsc and buffer: 327.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500179, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: Mul_52 and buffer: 328
+[INFO] bw: 8, min: -0.007632, max: 0.020574, delta: 0.000111, offset: -69.000000
+[INFO] Setting activation for layer: Add_54_Hswish and buffer: 334
+[INFO] bw: 8, min: -0.003833, max: 0.010331, delta: 0.000056, offset: -69.000000
+[INFO] Setting activation for layer: Conv_59 and buffer: 677
+[INFO] bw: 8, min: -0.023830, max: 0.016681, delta: 0.000159, offset: -150.000000
+[INFO] Setting activation for layer: Conv_60 and buffer: 680
+[INFO] bw: 8, min: -0.021015, max: 0.015943, delta: 0.000145, offset: -145.000000
+[INFO] Setting activation for layer: Add_62_Hswish and buffer: 344
+[INFO] bw: 8, min: -0.010417, max: 0.008030, delta: 0.000072, offset: -144.000000
+[INFO] Setting activation for layer: Conv_67 and buffer: 683
+[INFO] bw: 8, min: -0.005063, max: 0.005349, delta: 0.000041, offset: -124.000000
+[INFO] Setting activation for layer: GlobalAveragePool_68 and buffer: 349
+[INFO] bw: 8, min: -0.004745, max: 0.005255, delta: 0.000039, offset: -121.000000
+[INFO] Setting activation for layer: 349.ncs and buffer: 349.ncs
+[INFO] bw: 8, min: -0.004745, max: 0.005255, delta: 0.000039, offset: -121.000000
+[INFO] Setting activation for layer: Gemm_70 and buffer: 354
+[INFO] bw: 8, min: -0.001373, max: 0.008627, delta: 0.000039, offset: -35.000000
+[INFO] Setting activation for layer: Relu_71 and buffer: 355
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_72 and buffer: 358
+[INFO] bw: 8, min: 0.000000, max: 3.001098, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_75 and buffer: 359
+[INFO] bw: 8, min: 0.000000, max: 3.001098, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 360 and buffer: 360
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_77 and buffer: 361
+[INFO] bw: 8, min: 0.000000, max: 0.500183, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_78 and buffer: 369
+[INFO] bw: 8, min: 0.000000, max: 0.500183, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: 369.nsc and buffer: 369.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500183, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Mul_79 and buffer: 370
+[INFO] bw: 8, min: -0.002549, max: 0.007451, delta: 0.000039, offset: -65.000000
+[INFO] Setting activation for layer: Add_81_Hswish and buffer: 376
+[INFO] bw: 8, min: -0.001255, max: 0.008745, delta: 0.000039, offset: -32.000000
+[INFO] Setting activation for layer: Conv_86 and buffer: 686
+[INFO] bw: 8, min: -0.029784, max: 0.052769, delta: 0.000324, offset: -92.000000
+[INFO] Setting activation for layer: Add_87 and buffer: 379
+[INFO] bw: 8, min: -0.039346, max: 0.059993, delta: 0.000390, offset: -101.000000
+[INFO] Setting activation for layer: Conv_88 and buffer: 689
+[INFO] bw: 8, min: -0.035254, max: 0.029889, delta: 0.000255, offset: -138.000000
+[INFO] Setting activation for layer: Add_90_Hswish and buffer: 387
+[INFO] bw: 8, min: -0.017342, max: 0.015174, delta: 0.000128, offset: -136.000000
+[INFO] Setting activation for layer: Conv_95 and buffer: 692
+[INFO] bw: 8, min: -0.005121, max: 0.005410, delta: 0.000041, offset: -124.000000
+[INFO] Setting activation for layer: GlobalAveragePool_96 and buffer: 392
+[INFO] bw: 8, min: -0.004902, max: 0.005098, delta: 0.000039, offset: -125.000000
+[INFO] Setting activation for layer: 392.ncs and buffer: 392.ncs
+[INFO] bw: 8, min: -0.004902, max: 0.005098, delta: 0.000039, offset: -125.000000
+[INFO] Setting activation for layer: Gemm_98 and buffer: 397
+[INFO] bw: 8, min: -0.001529, max: 0.008471, delta: 0.000039, offset: -39.000000
+[INFO] Setting activation for layer: Relu_99 and buffer: 398
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_100 and buffer: 401
+[INFO] bw: 8, min: 0.000000, max: 3.001129, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_103 and buffer: 402
+[INFO] bw: 8, min: 0.000000, max: 3.001129, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 403 and buffer: 403
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_105 and buffer: 404
+[INFO] bw: 8, min: 0.000000, max: 0.500188, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_106 and buffer: 412
+[INFO] bw: 8, min: 0.000000, max: 0.500188, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: 412.nsc and buffer: 412.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500188, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Mul_107 and buffer: 413
+[INFO] bw: 8, min: -0.002588, max: 0.007412, delta: 0.000039, offset: -66.000000
+[INFO] Setting activation for layer: Add_109_Hswish and buffer: 419
+[INFO] bw: 8, min: -0.001294, max: 0.008706, delta: 0.000039, offset: -33.000000
+[INFO] Setting activation for layer: Conv_114 and buffer: 695
+[INFO] bw: 8, min: -0.025112, max: 0.023400, delta: 0.000190, offset: -132.000000
+[INFO] Setting activation for layer: Add_115 and buffer: 422
+[INFO] bw: 8, min: -0.047793, max: 0.061022, delta: 0.000427, offset: -112.000000
+[INFO] Setting activation for layer: Conv_116 and buffer: 698
+[INFO] bw: 8, min: -0.051881, max: 0.035156, delta: 0.000341, offset: -152.000000
+[INFO] Setting activation for layer: Add_118_Hswish and buffer: 430
+[INFO] bw: 8, min: -0.025458, max: 0.017820, delta: 0.000170, offset: -150.000000
+[INFO] Setting activation for layer: Conv_123 and buffer: 701
+[INFO] bw: 8, min: -0.007609, max: 0.006979, delta: 0.000057, offset: -133.000000
+[INFO] Setting activation for layer: GlobalAveragePool_124 and buffer: 435
+[INFO] bw: 8, min: -0.005851, max: 0.006687, delta: 0.000049, offset: -119.000000
+[INFO] Setting activation for layer: 435.ncs and buffer: 435.ncs
+[INFO] bw: 8, min: -0.005851, max: 0.006687, delta: 0.000049, offset: -119.000000
+[INFO] Setting activation for layer: Gemm_126 and buffer: 440
+[INFO] bw: 8, min: -0.001333, max: 0.008667, delta: 0.000039, offset: -34.000000
+[INFO] Setting activation for layer: Relu_127 and buffer: 441
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_128 and buffer: 444
+[INFO] bw: 8, min: 0.000000, max: 3.001101, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_131 and buffer: 445
+[INFO] bw: 8, min: 0.000000, max: 3.001101, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 446 and buffer: 446
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_133 and buffer: 447
+[INFO] bw: 8, min: 0.000000, max: 0.500184, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_134 and buffer: 455
+[INFO] bw: 8, min: 0.000000, max: 0.500184, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: 455.nsc and buffer: 455.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500184, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Mul_135 and buffer: 456
+[INFO] bw: 8, min: -0.003804, max: 0.006196, delta: 0.000039, offset: -97.000000
+[INFO] Setting activation for layer: Add_137_Hswish and buffer: 462
+[INFO] bw: 8, min: -0.001882, max: 0.008118, delta: 0.000039, offset: -48.000000
+[INFO] Setting activation for layer: Conv_142 and buffer: 704
+[INFO] bw: 8, min: -0.024389, max: 0.017918, delta: 0.000166, offset: -147.000000
+[INFO] Setting activation for layer: Conv_143 and buffer: 707
+[INFO] bw: 8, min: -0.020041, max: 0.019884, delta: 0.000157, offset: -128.000000
+[INFO] Setting activation for layer: Add_145_Hswish and buffer: 472
+[INFO] bw: 8, min: -0.009942, max: 0.010020, delta: 0.000078, offset: -127.000000
+[INFO] Setting activation for layer: Conv_150 and buffer: 710
+[INFO] bw: 8, min: -0.005549, max: 0.004779, delta: 0.000041, offset: -137.000000
+[INFO] Setting activation for layer: GlobalAveragePool_151 and buffer: 477
+[INFO] bw: 8, min: -0.005255, max: 0.004745, delta: 0.000039, offset: -134.000000
+[INFO] Setting activation for layer: 477.ncs and buffer: 477.ncs
+[INFO] bw: 8, min: -0.005255, max: 0.004745, delta: 0.000039, offset: -134.000000
+[INFO] Setting activation for layer: Gemm_153 and buffer: 482
+[INFO] bw: 8, min: -0.001529, max: 0.008471, delta: 0.000039, offset: -39.000000
+[INFO] Setting activation for layer: Relu_154 and buffer: 483
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_155 and buffer: 486
+[INFO] bw: 8, min: 0.000000, max: 3.001069, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_158 and buffer: 487
+[INFO] bw: 8, min: 0.000000, max: 3.001069, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 488 and buffer: 488
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_160 and buffer: 489
+[INFO] bw: 8, min: 0.000000, max: 0.500178, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_161 and buffer: 497
+[INFO] bw: 8, min: 0.000000, max: 0.500178, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: 497.nsc and buffer: 497.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500178, delta: 0.001961, offset: 0.000000
+[INFO] Setting activation for layer: Mul_162 and buffer: 498
+[INFO] bw: 8, min: -0.002784, max: 0.007216, delta: 0.000039, offset: -71.000000
+[INFO] Setting activation for layer: Add_164_Hswish and buffer: 504
+[INFO] bw: 8, min: -0.001373, max: 0.008627, delta: 0.000039, offset: -35.000000
+[INFO] Setting activation for layer: Conv_169 and buffer: 713
+[INFO] bw: 8, min: -0.024944, max: 0.025538, delta: 0.000198, offset: -126.000000
+[INFO] Setting activation for layer: Add_170 and buffer: 507
+[INFO] bw: 8, min: -0.034060, max: 0.033794, delta: 0.000266, offset: -128.000000
+[INFO] Setting activation for layer: Conv_171 and buffer: 716
+[INFO] bw: 8, min: -0.021307, max: 0.021141, delta: 0.000166, offset: -128.000000
+[INFO] Setting activation for layer: Add_173_Hswish and buffer: 515
+[INFO] bw: 8, min: -0.010570, max: 0.010653, delta: 0.000083, offset: -127.000000
+[INFO] Setting activation for layer: Conv_178 and buffer: 719
+[INFO] bw: 8, min: -0.006545, max: 0.005292, delta: 0.000046, offset: -141.000000
+[INFO] Setting activation for layer: GlobalAveragePool_179 and buffer: 520
+[INFO] bw: 8, min: -0.006134, max: 0.005201, delta: 0.000044, offset: -138.000000
+[INFO] Setting activation for layer: 520.ncs and buffer: 520.ncs
+[INFO] bw: 8, min: -0.006134, max: 0.005201, delta: 0.000044, offset: -138.000000
+[INFO] Setting activation for layer: Gemm_181 and buffer: 525
+[INFO] bw: 8, min: -0.001725, max: 0.008275, delta: 0.000039, offset: -44.000000
+[INFO] Setting activation for layer: Relu_182 and buffer: 526
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_183 and buffer: 529
+[INFO] bw: 8, min: 0.000000, max: 3.001150, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_186 and buffer: 530
+[INFO] bw: 8, min: 0.000000, max: 3.001150, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 531 and buffer: 531
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_188 and buffer: 532
+[INFO] bw: 8, min: 0.000000, max: 0.500192, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_189 and buffer: 540
+[INFO] bw: 8, min: 0.000000, max: 0.500192, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: 540.nsc and buffer: 540.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500192, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Mul_190 and buffer: 541
+[INFO] bw: 8, min: -0.003255, max: 0.006745, delta: 0.000039, offset: -83.000000
+[INFO] Setting activation for layer: Add_192_Hswish and buffer: 547
+[INFO] bw: 8, min: -0.001647, max: 0.008353, delta: 0.000039, offset: -42.000000
+[INFO] Setting activation for layer: Conv_197 and buffer: 722
+[INFO] bw: 8, min: -0.032681, max: 0.023250, delta: 0.000219, offset: -149.000000
+[INFO] Setting activation for layer: Conv_198 and buffer: 725
+[INFO] bw: 8, min: -0.022786, max: 0.021909, delta: 0.000175, offset: -130.000000
+[INFO] Setting activation for layer: Add_200_Hswish and buffer: 557
+[INFO] bw: 8, min: -0.011389, max: 0.010951, delta: 0.000088, offset: -130.000000
+[INFO] Setting activation for layer: Conv_205 and buffer: 728
+[INFO] bw: 8, min: -0.003412, max: 0.006588, delta: 0.000039, offset: -87.000000
+[INFO] Setting activation for layer: GlobalAveragePool_206 and buffer: 562
+[INFO] bw: 8, min: -0.003098, max: 0.006902, delta: 0.000039, offset: -79.000000
+[INFO] Setting activation for layer: 562.ncs and buffer: 562.ncs
+item already exists: 1124
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+[AIP_TF8_HTA : 0 1 2 3 4 5 ] --> [DSP_TF8 : 6 11 37 53 70 87 103 120 136 153 ] --> [AIP_TF8_HTA : 7 8 9 10 ] --> [DSP_TF8 : 12 13 14 ] --> [AIP_TF8_HTA : 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 ] --> [DSP_TF8 : 32 ] --> [AIP_TF8_HTA : 33 34 35 36 ] --> [DSP_TF8 : 38 39 40 ] --> [AIP_TF8_HTA : 41 42 43 44 45 46 47 ] --> [DSP_TF8 : 48 ] --> [AIP_TF8_HTA : 49 50 51 52 ] --> [DSP_TF8 : 54 55 56 ] --> [AIP_TF8_HTA : 57 58 59 60 61 62 63 64 ] --> [DSP_TF8 : 65 ] --> [AIP_TF8_HTA : 66 67 68 69 ] --> [DSP_TF8 : 71 72 73 ] --> [AIP_TF8_HTA : 74 75 76 77 78 79 80 81 ] --> [DSP_TF8 : 82 ] --> [AIP_TF8_HTA : 83 84 85 86 ] --> [DSP_TF8 : 88 89 90 ] --> [AIP_TF8_HTA : 91 92 93 94 95 96 97 ] --> [DSP_TF8 : 98 ] --> [AIP_TF8_HTA : 99 100 101 102 ] --> [DSP_TF8 : 104 105 106 ] --> [AIP_TF8_HTA : 107 108 109 110 111 112 113 114 ] --> [DSP_TF8 : 115 ] --> [AIP_TF8_HTA : 116 117 118 119 ] --> [DSP_TF8 : 121 122 123 ] --> [AIP_TF8_HTA : 124 125 126 127 128 129 130 ] --> [DSP_TF8 : 131 ] --> [AIP_TF8_HTA : 132 133 134 135 ] --> [DSP_TF8 : 137 138 139 ] --> [AIP_TF8_HTA : 140 141 142 143 144 145 146 147 ] --> [DSP_TF8 : 148 ] --> [AIP_TF8_HTA : 149 150 151 152 ] --> [DSP_TF8 : 154 155 156 ] --> [AIP_TF8_HTA : 157 158 159 160 161 162 ] ::37
+254.ncs: Permute not supported
+265: unknown op
+318: unknown op
+360: unknown op
+403: unknown op
+446: unknown op
+488: unknown op
+531: unknown op
+573: unknown op
+616: unknown op
+Div_18: ElementwiseBinaryOp not supported
+274.nsc: Permute not supported
+Mul_20: ElementwiseBinaryOp not supported
+Add_32: ElementwiseBinaryOp not supported
+307.ncs: Permute not supported
+Div_50: ElementwiseBinaryOp not supported
+327.nsc: Permute not supported
+Mul_52: ElementwiseBinaryOp not supported
+349.ncs: Permute not supported
+Div_77: ElementwiseBinaryOp not supported
+369.nsc: Permute not supported
+Mul_79: ElementwiseBinaryOp not supported
+Add_87: ElementwiseBinaryOp not supported
+392.ncs: Permute not supported
+Div_105: ElementwiseBinaryOp not supported
+412.nsc: Permute not supported
+Mul_107: ElementwiseBinaryOp not supported
+Add_115: ElementwiseBinaryOp not supported
+435.ncs: Permute not supported
+Div_133: ElementwiseBinaryOp not supported
+455.nsc: Permute not supported
+Mul_135: ElementwiseBinaryOp not supported
+477.ncs: Permute not supported
+Div_160: ElementwiseBinaryOp not supported
+497.nsc: Permute not supported
+Mul_162: ElementwiseBinaryOp not supported
+Add_170: ElementwiseBinaryOp not supported
+520.ncs: Permute not supported
+Div_188: ElementwiseBinaryOp not supported
+540.nsc: Permute not supported
+Mul_190: ElementwiseBinaryOp not supported
+562.ncs: Permute not supported
+Div_215: ElementwiseBinaryOp not supported
+582.nsc: Permute not supported
+Mul_217: ElementwiseBinaryOp not supported
+Add_225: ElementwiseBinaryOp not supported
+605.ncs: Permute not supported
+Div_243: ElementwiseBinaryOp not supported
+625.nsc: Permute not supported
+Mul_245: ElementwiseBinaryOp not supported
+Add_253: ElementwiseBinaryOp not supported
+item already exists: 1124
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+[INFO] bw: 8, min: -0.003098, max: 0.006902, delta: 0.000039, offset: -79.000000
+[INFO] Setting activation for layer: Gemm_208 and buffer: 567
+[INFO] bw: 8, min: -0.001529, max: 0.008471, delta: 0.000039, offset: -39.000000
+[INFO] Setting activation for layer: Relu_209 and buffer: 568
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_210 and buffer: 571
+[INFO] bw: 8, min: 0.000000, max: 3.001213, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_213 and buffer: 572
+[INFO] bw: 8, min: 0.000000, max: 3.001213, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 573 and buffer: 573
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_215 and buffer: 574
+[INFO] bw: 8, min: 0.000000, max: 0.500202, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_216 and buffer: 582
+[INFO] bw: 8, min: 0.000000, max: 0.500202, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: 582.nsc and buffer: 582.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500202, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Mul_217 and buffer: 583
+[INFO] bw: 8, min: -0.001686, max: 0.008314, delta: 0.000039, offset: -43.000000
+[INFO] Setting activation for layer: Add_219_Hswish and buffer: 589
+[INFO] bw: 8, min: -0.000863, max: 0.009137, delta: 0.000039, offset: -22.000000
+[INFO] Setting activation for layer: Conv_224 and buffer: 731
+[INFO] bw: 8, min: -0.044364, max: 0.038819, delta: 0.000326, offset: -136.000000
+[INFO] Setting activation for layer: Add_225 and buffer: 592
+[INFO] bw: 8, min: -0.047659, max: 0.044410, delta: 0.000361, offset: -132.000000
+[INFO] Setting activation for layer: Conv_226 and buffer: 734
+[INFO] bw: 8, min: -0.034231, max: 0.036735, delta: 0.000278, offset: -123.000000
+[INFO] Setting activation for layer: Add_228_Hswish and buffer: 600
+[INFO] bw: 8, min: -0.016852, max: 0.018662, delta: 0.000139, offset: -121.000000
+[INFO] Setting activation for layer: Conv_233 and buffer: 737
+[INFO] bw: 8, min: -0.003412, max: 0.006588, delta: 0.000039, offset: -87.000000
+[INFO] Setting activation for layer: GlobalAveragePool_234 and buffer: 605
+[INFO] bw: 8, min: -0.002941, max: 0.007059, delta: 0.000039, offset: -75.000000
+[INFO] Setting activation for layer: 605.ncs and buffer: 605.ncs
+[INFO] bw: 8, min: -0.002941, max: 0.007059, delta: 0.000039, offset: -75.000000
+[INFO] Setting activation for layer: Gemm_236 and buffer: 610
+[INFO] bw: 8, min: -0.001529, max: 0.008471, delta: 0.000039, offset: -39.000000
+[INFO] Setting activation for layer: Relu_237 and buffer: 611
+[INFO] bw: 8, min: 0.000000, max: 0.010000, delta: 0.000039, offset: 0.000000
+[INFO] Setting activation for layer: Gemm_238 and buffer: 614
+[INFO] bw: 8, min: 0.000000, max: 3.001184, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: Clip_241 and buffer: 615
+[INFO] bw: 8, min: 0.000000, max: 3.001184, delta: 0.011769, offset: 0.000000
+[INFO] Setting activation for layer: 616 and buffer: 616
+[INFO] bw: 8, min: 0.000000, max: 6.000000, delta: 0.023529, offset: 0.000000
+[INFO] Setting activation for layer: Div_243 and buffer: 617
+[INFO] bw: 8, min: 0.000000, max: 0.500197, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Reshape_244 and buffer: 625
+[INFO] bw: 8, min: 0.000000, max: 0.500197, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: 625.nsc and buffer: 625.nsc
+[INFO] bw: 8, min: 0.000000, max: 0.500197, delta: 0.001962, offset: 0.000000
+[INFO] Setting activation for layer: Mul_245 and buffer: 626
+[INFO] bw: 8, min: -0.001686, max: 0.008314, delta: 0.000039, offset: -43.000000
+[INFO] Setting activation for layer: Add_247_Hswish and buffer: 632
+[INFO] bw: 8, min: -0.000863, max: 0.009137, delta: 0.000039, offset: -22.000000
+[INFO] Setting activation for layer: Conv_252 and buffer: 740
+[INFO] bw: 8, min: -0.042117, max: 0.031950, delta: 0.000290, offset: -145.000000
+[INFO] Setting activation for layer: Add_253 and buffer: 635
+[INFO] bw: 8, min: -0.052904, max: 0.060462, delta: 0.000445, offset: -119.000000
+[INFO] Setting activation for layer: Conv_254 and buffer: 743
+[INFO] bw: 8, min: -0.045413, max: 0.068119, delta: 0.000445, offset: -102.000000
+[INFO] Setting activation for layer: Add_256_Hswish and buffer: output_data
+[INFO] bw: 8, min: -0.022207, max: 0.034994, delta: 0.000224, offset: -99.000000
+[INFO] Running Graph Partitioner for SDM865
+[INFO] Blob ID:2
+[WARNING] Dropping subnet 0: <0, 1> to improve runtime performance.
+[WARNING] Dropping subnet 1: <3, 5> to improve runtime performance.
+[WARNING] Dropping subnet 4: <36, 36> to improve runtime performance.
+[WARNING] Dropping subnet 5: <38, 39> to improve runtime performance.
+[WARNING] Dropping subnet 7: <50, 51> to improve runtime performance.
+[WARNING] Dropping subnet 8: <53, 54> to improve runtime performance.
+[WARNING] Dropping subnet 10: <65, 65> to improve runtime performance.
+[WARNING] Dropping subnet 11: <67, 67> to improve runtime performance.
+[WARNING] Dropping subnet 12: <69, 70> to improve runtime performance.
+[WARNING] Dropping subnet 14: <81, 81> to improve runtime performance.
+[WARNING] Dropping subnet 15: <83, 83> to improve runtime performance.
+[WARNING] Dropping subnet 16: <85, 86> to improve runtime performance.
+[WARNING] Dropping subnet 18: <97, 98> to improve runtime performance.
+[WARNING] Dropping subnet 19: <100, 101> to improve runtime performance.
+[WARNING] Dropping subnet 21: <112, 112> to improve runtime performance.
+[WARNING] Dropping subnet 22: <114, 114> to improve runtime performance.
+[WARNING] Dropping subnet 23: <116, 117> to improve runtime performance.
+[WARNING] Dropping subnet 25: <128, 129> to improve runtime performance.
+[WARNING] Dropping subnet 26: <131, 132> to improve runtime performance.
+[WARNING] Dropping subnet 28: <143, 143> to improve runtime performance.
+[WARNING] Dropping subnet 29: <145, 145> to improve runtime performance.
+[WARNING] Dropping subnet 30: <147, 148> to improve runtime performance.
+[WARNING] Dropping subnet 32: <159, 159> to improve runtime performance.
+[WARNING] Dropping subnet 33: <161, 161> to improve runtime performance.
+[INFO] Writing quantized model to: ../../models/mobilenetv3/dlc/mobilenetv3_small_quan_hta.dlc
+Overwrite ni = 32 cp.mNi = 8
+
+Starting assembler.
+[INFO] Compiling HTA metadata into DLC.
+[INFO] Creating new AIP record aip.metadata0 
+[INFO] Record Version:: 1.2.0.0
+[INFO] Compiler Version:: 1.6.2.1
+[INFO] HTA Blob ID:: 1
+NO ERRORS; 
+NO WARNINGS;
+Please contact Qualcomm NPU team for potential further performance optimization for your model
+item already exists: 1124
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+[ERROR] Failed to get buffer config for subnet [0], buf [264] with buf ID 0x131000. Error code: 1
+[ERROR] Failed to get subnet buffer config for subnet 0.
+[ERROR] Failed to process subnets to produce HTA metadata.
+[WARNING] Couldn't process data for HTA Blob Id [1].
+[INFO] Creating new AIP record aip.metadata0 
+[INFO] Record Version:: 1.2.0.0
+[INFO] Compiler Version:: 1.6.2.1
+[INFO] HTA Blob ID:: 2
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+Unsupported layer Div_18
+Unsupported layer Div_50
+Unsupported layer Div_77
+Unsupported layer Div_105
+Unsupported layer Div_133
+Unsupported layer Div_160
+Unsupported layer Div_188
+Unsupported layer Div_215
+Unsupported layer Div_243
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+warning: overflow in accumulator detected
+[INFO] Successfully compiled HTA metadata into DLC.
+[INFO] DebugLog shutting down.
